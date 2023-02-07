@@ -1,0 +1,17 @@
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/bin/Debug/net7.0/BookShopping.Infrastructure.deps.json
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/bin/Debug/net7.0/BookShopping.Infrastructure.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/bin/Debug/net7.0/BookShopping.Infrastructure.pdb
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/bin/Debug/net7.0/BookShopping.Application.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/bin/Debug/net7.0/BookShopping.Domain.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/bin/Debug/net7.0/BookShopping.Application.pdb
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/bin/Debug/net7.0/BookShopping.Domain.pdb
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/BookShopping.Infrastructure.csproj.AssemblyReference.cache
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/BookShopping.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/BookShopping.Infrastructure.AssemblyInfoInputs.cache
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/BookShopping.Infrastructure.AssemblyInfo.cs
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/BookShopping.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/BookShopping.Infrastructure.csproj.CopyComplete
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/BookShopping.Infrastructure.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/refint/BookShopping.Infrastructure.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/BookShopping.Infrastructure.pdb
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/ref/BookShopping.Infrastructure.dll

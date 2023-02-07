@@ -1,0 +1,15 @@
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/bin/Debug/net7.0/BookShopping.Application.deps.json
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/bin/Debug/net7.0/BookShopping.Application.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/bin/Debug/net7.0/BookShopping.Application.pdb
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/bin/Debug/net7.0/BookShopping.Domain.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/bin/Debug/net7.0/BookShopping.Domain.pdb
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/BookShopping.Application.csproj.AssemblyReference.cache
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/BookShopping.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/BookShopping.Application.AssemblyInfoInputs.cache
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/BookShopping.Application.AssemblyInfo.cs
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/BookShopping.Application.csproj.CoreCompileInputs.cache
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/BookShopping.Application.csproj.CopyComplete
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/BookShopping.Application.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/refint/BookShopping.Application.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/BookShopping.Application.pdb
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/Debug/net7.0/ref/BookShopping.Application.dll

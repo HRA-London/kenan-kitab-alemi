@@ -1,0 +1,49 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "BookShopping.Infrastructure/1.0.0": {
+        "dependencies": {
+          "BookShopping.Application": "1.0.0"
+        },
+        "runtime": {
+          "BookShopping.Infrastructure.dll": {}
+        }
+      },
+      "BookShopping.Application/1.0.0": {
+        "dependencies": {
+          "BookShopping.Domain": "1.0.0"
+        },
+        "runtime": {
+          "BookShopping.Application.dll": {}
+        }
+      },
+      "BookShopping.Domain/1.0.0": {
+        "runtime": {
+          "BookShopping.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BookShopping.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookShopping.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BookShopping.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

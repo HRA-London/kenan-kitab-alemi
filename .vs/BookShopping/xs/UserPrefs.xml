@@ -1,0 +1,43 @@
+﻿<Properties StartupConfiguration="{CF8902A2-748F-42A5-A008-C272EC3FF570}|https">
+  <DisabledProjects>
+    <String>BookShopping.Domain/BookShopping.Application/BookShopping.Application.csproj</String>
+    <String>BookShopping.Domain/BookShopping.Infrastructure/BookShopping.Infrastructure.csproj</String>
+    <String>BookShopping.Domain/BookShopping.MVC/BookShopping.MVC.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workbench ActiveDocument="BookShopping.MVC/Views/Home/Index.cshtml">
+    <Files>
+      <File FileName="BookShopping.MVC/Controllers/HomeController.cs" />
+      <File FileName="BookShopping.MVC/Views/Shared/_Layout.cshtml" />
+      <File FileName="BookShopping.MVC/Program.cs" />
+      <File FileName="BookShopping.MVC/Views/Home/Index.cshtml" Line="2151" Column="11" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="BookShopping" expanded="True">
+            <Node name="src" expanded="True">
+              <Node name="BookShopping.MVC" expanded="True">
+                <Node name="Controllers" expanded="True" />
+                <Node name="Views" expanded="True">
+                  <Node name="Home" expanded="True" />
+                  <Node name="Shared" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/Controllers/BookController.cs" relfile="BookShopping.MVC/Controllers/BookController.cs" line="19" column="1" />
+      <Breakpoint file="/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/Interfaces/IBookService.cs" relfile="BookShopping.Application/Interfaces/IBookService.cs" line="9" column="1" />
+      <Breakpoint file="/Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/Controllers/BookController.cs" relfile="BookShopping.MVC/Controllers/BookController.cs" line="25" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.src.BookShopping.MVC PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+</Properties>
