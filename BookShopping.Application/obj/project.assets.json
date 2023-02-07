@@ -27,33 +27,39 @@
     ]
   },
   "packageFolders": {
-    "/Users/tarlanusubov/.nuget/packages/": {}
+    "C:\\Users\\tarlan.usubov\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/BookShopping.Application.csproj",
+      "projectUniqueName": "C:\\Users\\tarlan.usubov\\Desktop\\New folder (5)\\kenan-kitab-alemi\\BookShopping.Application\\BookShopping.Application.csproj",
       "projectName": "BookShopping.Application",
-      "projectPath": "/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/BookShopping.Application.csproj",
-      "packagesPath": "/Users/tarlanusubov/.nuget/packages/",
-      "outputPath": "/Users/tarlanusubov/Projects/BookShopping/BookShopping.Application/obj/",
+      "projectPath": "C:\\Users\\tarlan.usubov\\Desktop\\New folder (5)\\kenan-kitab-alemi\\BookShopping.Application\\BookShopping.Application.csproj",
+      "packagesPath": "C:\\Users\\tarlan.usubov\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tarlan.usubov\\Desktop\\New folder (5)\\kenan-kitab-alemi\\BookShopping.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/tarlanusubov/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\tarlan.usubov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "/usr/local/share/dotnet/library-packs": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/tarlanusubov/Projects/BookShopping/BookShopping.Domain/BookShopping.Domain.csproj": {
-              "projectPath": "/Users/tarlanusubov/Projects/BookShopping/BookShopping.Domain/BookShopping.Domain.csproj"
+            "C:\\Users\\tarlan.usubov\\Desktop\\New folder (5)\\kenan-kitab-alemi\\BookShopping.Domain\\BookShopping.Domain.csproj": {
+              "projectPath": "C:\\Users\\tarlan.usubov\\Desktop\\New folder (5)\\kenan-kitab-alemi\\BookShopping.Domain\\BookShopping.Domain.csproj"
             }
           }
         }
@@ -83,7 +89,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,25 +1,43 @@
-﻿using System;
-using BookShopping.Domain.Entities;
+﻿using BookShopping.Domain.Entities;
+using Microsoft.EntityFrameworkCore;
+using System;
 
 namespace BookShopping.Infrastructure.Data
 {
-    public static class ApplicationDbContext
+    public class ApplicationDbContext:DbContext
     {
-        public static List<Book> Books { get; set; } = new List<Book>()
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Feature> Features { get; set; }
+
+        public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options):base(options)
         {
-            new Book
+
+        }
+
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Category>(entity =>
             {
-                Name = "Varli ata, Kasib ata",
-                Author = "Terlan Usubov",
-                Id = 1
-            },
-            new Book
+                entity.Property(c => c.Name).IsRequired().HasMaxLength(100);
+                entity.Property(c => c.Priority).IsRequired();
+                entity.Property(c => c.IsActive).IsRequired().HasDefaultValue(true);
+                entity.Property(c => c.Created).IsRequired().HasDefaultValueSql("GETDATE()");
+
+            });
+
+            modelBuilder.Entity<Feature>(entity =>
             {
-                Name = "Kenan esgerlikden qacisi",
-                Author = "Vaynkomat",
-                Id = 2
-            }
-        };
+                entity.Property(c => c.Name).IsRequired().HasMaxLength(100);
+                entity.Property(c => c.ShortDesc).IsRequired();
+                entity.Property(c => c.IsActive).IsRequired().HasDefaultValue(true);
+                entity.Property(c => c.Created).IsRequired().HasDefaultValueSql("GETDATE()");
+
+            });
+
+
+            
+        }
     }
 }
 

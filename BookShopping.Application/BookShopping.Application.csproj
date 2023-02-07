@@ -10,9 +10,6 @@
     <None Remove="Interfaces\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interfaces\" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\BookShopping.Domain\BookShopping.Domain.csproj" />
   </ItemGroup>
 </Project>

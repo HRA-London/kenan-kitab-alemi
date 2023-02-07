@@ -2,18 +2,26 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BookShopping.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
-// For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace BookShopping.MVC.Controllers
 {
     public class HomeController : Controller
     {
-        // GET: /<controller>/
+        private readonly IFeatureService _featureService;
+
+
+        public HomeController(IFeatureService featureService)
+        {
+            _featureService = featureService;
+        }
         public IActionResult Index()
         {
-            return View();
+            var features = _featureService.GetFeatures();
+
+            return View(features);
         }
     }
 }

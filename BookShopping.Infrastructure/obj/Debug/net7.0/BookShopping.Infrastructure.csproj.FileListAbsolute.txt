@@ -15,3 +15,22 @@
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/refint/BookShopping.Infrastructure.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/BookShopping.Infrastructure.pdb
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.Infrastructure/obj/Debug/net7.0/ref/BookShopping.Infrastructure.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\bin\Debug\net7.0\BookShopping.Infrastructure.deps.json
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\bin\Debug\net7.0\BookShopping.Infrastructure.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\bin\Debug\net7.0\BookShopping.Infrastructure.pdb
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\bin\Debug\net7.0\BookShopping.Application.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\bin\Debug\net7.0\BookShopping.Domain.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\bin\Debug\net7.0\BookShopping.Application.pdb
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\bin\Debug\net7.0\BookShopping.Domain.pdb
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\BookShopping.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\BookShopping.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\BookShopping.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\BookShopping.Infrastructure.AssemblyInfo.cs
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\BookShopping.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\BookShopping.Infrastructure.csproj.CopyComplete
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\BookShopping.Infrastructure.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\refint\BookShopping.Infrastructure.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\BookShopping.Infrastructure.pdb
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\ref\BookShopping.Infrastructure.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\bin\Debug\net7.0\BookShopping.Infrastructure.runtimeconfig.json
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Infrastructure\obj\Debug\net7.0\BookShopping.Infrastructure.genruntimeconfig.cache

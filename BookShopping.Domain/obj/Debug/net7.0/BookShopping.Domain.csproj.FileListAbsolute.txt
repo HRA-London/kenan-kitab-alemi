@@ -10,3 +10,15 @@
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.Domain/obj/Debug/net7.0/refint/BookShopping.Domain.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.Domain/obj/Debug/net7.0/BookShopping.Domain.pdb
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.Domain/obj/Debug/net7.0/ref/BookShopping.Domain.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\bin\Debug\net7.0\BookShopping.Domain.deps.json
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\bin\Debug\net7.0\BookShopping.Domain.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\bin\Debug\net7.0\BookShopping.Domain.pdb
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\obj\Debug\net7.0\BookShopping.Domain.csproj.AssemblyReference.cache
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\obj\Debug\net7.0\BookShopping.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\obj\Debug\net7.0\BookShopping.Domain.AssemblyInfoInputs.cache
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\obj\Debug\net7.0\BookShopping.Domain.AssemblyInfo.cs
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\obj\Debug\net7.0\BookShopping.Domain.csproj.CoreCompileInputs.cache
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\obj\Debug\net7.0\BookShopping.Domain.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\obj\Debug\net7.0\refint\BookShopping.Domain.dll
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\obj\Debug\net7.0\BookShopping.Domain.pdb
+C:\Users\tarlan.usubov\Desktop\New folder (5)\kenan-kitab-alemi\BookShopping.Domain\obj\Debug\net7.0\ref\BookShopping.Domain.dll

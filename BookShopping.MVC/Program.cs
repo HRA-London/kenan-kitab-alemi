@@ -1,9 +1,11 @@
-﻿using BookShopping.Application.Interfaces;
-using BookShopping.Infrastructure.Services;
+﻿
 
+using BookShopping.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddControllersWithViews();
 

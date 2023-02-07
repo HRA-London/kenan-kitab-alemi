@@ -1,3 +1,3 @@
 ﻿<Project>
-  <Import Project="../buildMultiTargeting/BookShopping.MVC.props" />
+  <Import Project="..\buildMultiTargeting\BookShopping.MVC.props" />
 </Project>
