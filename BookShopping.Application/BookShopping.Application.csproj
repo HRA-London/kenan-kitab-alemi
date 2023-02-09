@@ -8,8 +8,18 @@
 
   <ItemGroup>
     <None Remove="Interfaces\" />
+    <None Remove="Models\" />
+    <None Remove="Models\Account\" />
+    <None Remove="Models\Account\Login\" />
+    <None Remove="Models\Account\Register\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BookShopping.Domain\BookShopping.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\" />
+    <Folder Include="Models\Account\" />
+    <Folder Include="Models\Account\Login\" />
+    <Folder Include="Models\Account\Register\" />
   </ItemGroup>
 </Project>

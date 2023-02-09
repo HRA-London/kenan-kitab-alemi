@@ -10,18 +10,9 @@ namespace BookShopping.MVC.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly IFeatureService _featureService;
-
-
-        public HomeController(IFeatureService featureService)
-        {
-            _featureService = featureService;
-        }
         public IActionResult Index()
         {
-            var features = _featureService.GetFeatures();
-
-            return View(features);
+            return View();
         }
     }
 }

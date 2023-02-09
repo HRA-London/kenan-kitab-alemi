@@ -16,14 +16,16 @@ namespace BookShopping.Infrastructure
     //Method Extensions
     public static class DependencyInjection
     {
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services,IConfiguration configuration)
+        public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
         {
+
             services.AddDbContext<ApplicationDbContext>(options =>
                 options.UseSqlServer(configuration["Database"],
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
 
             services.AddTransient<IFeatureService, FeatureService>();
+            services.AddTransient<IAccountService, AccountService>();
 
             return services;
         }

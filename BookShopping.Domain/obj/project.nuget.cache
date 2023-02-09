@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Qtb0aaKB+eJND24jhuZrzZiXbMV9w+uZL04HGtTbQs1CX4V5gZb9KGr4tiy+0Dv5Im6HkdeUYVK2NAJF2viYGA==",
+  "dgSpecHash": "AZOWUzhr5oZ4KSbl1iq9WgX4mbOP2vx3f1wCAfr3cb6hfAd1p0RfvpsBS2k5oYVYUcr15n29u9IciZ3Q4UzG0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\tarlan.usubov\\Desktop\\New folder (5)\\kenan-kitab-alemi\\BookShopping.Domain\\BookShopping.Domain.csproj",
+  "projectFilePath": "/Users/tarlanusubov/Projects/BookShopping/BookShopping.Domain/BookShopping.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
