@@ -14,7 +14,7 @@ namespace BookShopping.MVC.Components
         }
         public async Task<IViewComponentResult> InvokeAsync()
         {
-            var features = _featureService.GetFeatures();
+            var features = await _featureService.GetFeatures();
             return View(features);
         }
     }

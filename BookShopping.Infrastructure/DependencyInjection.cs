@@ -24,6 +24,7 @@ namespace BookShopping.Infrastructure
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
 
+            services.AddHttpContextAccessor();
             services.AddTransient<IFeatureService, FeatureService>();
             services.AddTransient<IAccountService, AccountService>();
 

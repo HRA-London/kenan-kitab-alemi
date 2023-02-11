@@ -2,6 +2,7 @@
 using BookShopping.Domain.DTOs;
 using BookShopping.Infrastructure.Data;
 using Microsoft.Data.SqlClient;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,18 +20,19 @@ namespace BookShopping.Infrastructure.Services
             _context = context;
         }
 
-        public List<FeatureDto> GetFeatures()
+        public async Task<List<FeatureDto>> GetFeatures()
         {
-            var features = _context.Features
-                                .Where(c=>c.IsActive == true)
+            var features = await _context.Features
+                                .Where(c => c.IsActive == true)
                                 .Select(c => new FeatureDto
-                                 {
-                                     FeatureId = c.Id,
-                                     Description = c.ShortDesc,
-                                     Name = c.Name,
-                                     Icon = c.Icon
-                                 })
-                                .ToList();
+                                {
+                                    FeatureId = c.Id,
+                                    Description = c.ShortDesc,
+                                    Name = c.Name,
+                                    Icon = c.Icon
+                                })
+                                .ToListAsync();
+
 
             return features;
         }

@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace BookShopping.Application.Interfaces
 {
-    public  interface IFeatureService
+    public interface IFeatureService
     {
-        List<FeatureDto> GetFeatures();
+        Task<List<FeatureDto>> GetFeatures();
     }
 }

@@ -8,6 +8,8 @@ namespace BookShopping.Infrastructure.Data
     {
         public DbSet<Category> Categories { get; set; }
         public DbSet<Feature> Features { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<UserAddress> UserAddresses { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {

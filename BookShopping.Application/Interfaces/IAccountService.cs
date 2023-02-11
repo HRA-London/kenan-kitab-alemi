@@ -6,8 +6,8 @@ namespace BookShopping.Application.Interfaces
 {
     public interface IAccountService
     {
-        LoginResponse Login(LoginRequest request);
-        RegisterResponse Register(RegisterRequest request);
+        Task<LoginResponse> LoginAsync(LoginRequest request);
+        Task<RegisterResponse> RegisterAsync(RegisterRequest request);
     }
 }
 

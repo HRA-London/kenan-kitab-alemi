@@ -322,8 +322,16 @@
                             <div class="main-navigation flex-lg-right">
                                 <div class="cart-widget">
                                     <div class="login-block">
-                                        <a href="login-register.html" class="font-weight-bold">Login</a> <br>
-                                        <span>or</span><a href="login-register.html">Register</a>
+                                        @if (User.Identity.IsAuthenticated)
+                                        {
+                                            <p>@User.Claims.Where(c => c.Type == "name").Select(c => c.Value).FirstOrDefault() @User.Claims.Where(c => c.Type == "surname").Select(c => c.Value).FirstOrDefault()</p>
+
+                                        }
+                                        else
+                                        {
+                                            <a href="login-register.html" class="font-weight-bold">Login</a> <br>
+                                            <span>or</span><a href="login-register.html">Register</a>
+                                        }
                                     </div>
                                     <div class="cart-block">
                                         <div class="cart-total">
