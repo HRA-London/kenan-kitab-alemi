@@ -25,7 +25,7 @@ namespace BookShopping.MVC.Controllers
         {
             if (model.RegisterRequest != null)
             {
-                var registerResponse = await _accountService.RegisterAsync(model.RegisterRequest);
+                var registerResponse = _accountService.RegisterAsync(model.RegisterRequest);
 
                 return RedirectToAction("Auth", "Account");
                 //TODO: Send Email
