@@ -1,4 +1,5 @@
-﻿using BookShopping.Domain.DTOs;
+﻿using BookShopping.Application.Models.Core;
+using BookShopping.Domain.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,6 +10,6 @@ namespace BookShopping.Application.Interfaces
 {
     public interface IFeatureService
     {
-        Task<List<FeatureDto>> GetFeatures();
+        Task<ServiceResult<List<FeatureDto>>> GetFeatures();
     }
 }

@@ -12,6 +12,9 @@
     <None Remove="Models\Account\" />
     <None Remove="Models\Account\Login\" />
     <None Remove="Models\Account\Register\" />
+    <None Remove="Models\Core\" />
+    <None Remove="Models\Account\EmailValidation\" />
+    <None Remove="Microsoft.AspNetCore.Mvc.Core" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BookShopping.Domain\BookShopping.Domain.csproj" />
@@ -21,5 +24,10 @@
     <Folder Include="Models\Account\" />
     <Folder Include="Models\Account\Login\" />
     <Folder Include="Models\Account\Register\" />
+    <Folder Include="Models\Core\" />
+    <Folder Include="Models\Account\EmailValidation\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Core" Version="2.2.5" />
   </ItemGroup>
 </Project>

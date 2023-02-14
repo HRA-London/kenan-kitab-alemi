@@ -2947,3 +2947,16 @@ Home Blog
         </div>
     </div>
 </section>
+
+@section EmailConfirmation{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @if (TempData["emailconfirmed"]?.ToString() == "True")
+    {
+        <script>Swal.fire(
+                'Uğurlu əməliyyat!',
+                'E-poçt ünvanınız təsdiq edildi!',
+                'success'
+            )</script>
+    }
+}

@@ -1,10 +1,12 @@
-﻿
-
-using BookShopping.Infrastructure;
+﻿using BookShopping.Infrastructure;
 using Microsoft.AspNetCore.Authentication.Cookies;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+builder.Services.AddSession();
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
                 .AddCookie(option =>
@@ -28,6 +30,8 @@ app.MapControllerRoute("default", "{controller=Home}/{action=Index}");
 app.UseStaticFiles();
 
 app.UseAuthentication();
+
+app.UseSession();
 
 
 app.Run();

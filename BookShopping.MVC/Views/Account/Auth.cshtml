@@ -29,27 +29,37 @@
                         <h4 class="login-title">New Customer</h4>
                         <p><span class="font-weight-bold">I am a new customer</span></p>
                         <div class="row">
+                            @if (Model.LoginRequest == null && Model.RegisterRequest != null)
+                            {
+                                @Html.ValidationSummary(true)
+                            }
+
                             <div class="col-md-12 col-12 mb--15">
                                 <label for="email">Name</label>
-                                <input name="RegisterRequest.Name" class="mb-0 form-control" type="text" id="name"
+                                <input value="@Model?.RegisterRequest?.Name" name="RegisterRequest.Name" class="mb-0 form-control" type="text" id="name"
                                        placeholder="Enter your full name">
+                                <span>@Html.ValidationMessageFor(c => c.RegisterRequest.Name)</span>
                             </div>
                             <div class="col-md-12 col-12 mb--15">
                                 <label for="email">Surname</label>
-                                <input name="RegisterRequest.Surname" class="mb-0 form-control" type="text" id="name"
+                                <input value="@Model?.RegisterRequest?.Surname" name="RegisterRequest.Surname" class="mb-0 form-control" type="text" id="name"
                                        placeholder="Enter your full name">
+                                <span>@Html.ValidationMessageFor(c => c.RegisterRequest.Surname)</span>
                             </div>
                             <div class="col-12 mb--20">
                                 <label for="email">Email</label>
-                                <input name="RegisterRequest.Email" class="mb-0 form-control" type="email" id="email" placeholder="Enter Your Email Address Here..">
+                                <input value="@Model?.RegisterRequest?.Email" name="RegisterRequest.Email" class="mb-0 form-control" type="email" id="email" placeholder="Enter Your Email Address Here..">
+                                <span>@Html.ValidationMessageFor(c => c.RegisterRequest.Email)</span>
                             </div>
                             <div class="col-lg-6 mb--20">
                                 <label for="password">Password</label>
                                 <input name="RegisterRequest.Password" class="mb-0 form-control" type="password" id="password" placeholder="Enter your password">
+                                <span>@Html.ValidationMessageFor(c => c.RegisterRequest.Password)</span>
                             </div>
                             <div class="col-lg-6 mb--20">
                                 <label for="password">Repeat Password</label>
                                 <input name="RegisterRequest.ConfirmPassword" class="mb-0 form-control" type="password" id="repeat-password" placeholder="Repeat your password">
+                                <span>@Html.ValidationMessageFor(c => c.RegisterRequest.ConfirmPassword)</span>
                             </div>
                             <div class="col-md-12">
                                 <button type="submit" class="btn btn-outlined">Register</button>
@@ -60,18 +70,27 @@
             </div>
             <div class="col-sm-12 col-md-12 col-lg-6 col-xs-12">
                 <form method="post" action="@Url.Action("Auth","Account")">
+                    @if (Model.RegisterRequest == null && Model.LoginRequest != null)
+                    {
+                        @Html.ValidationSummary(true)
+
+                    }
                     <div class="login-form">
                         <h4 class="login-title">Returning Customer</h4>
                         <p><span class="font-weight-bold">I am a returning customer</span></p>
                         <div class="row">
                             <div class="col-md-12 col-12 mb--15">
                                 <label for="email">Enter your email address here...</label>
-                                <input name="LoginRequest.Email" class="mb-0 form-control" type="email" id="email1"
+                                <input value="@Model?.LoginRequest?.Email" name="LoginRequest.Email" class="mb-0 form-control" type="email" id="email1"
                                        placeholder="Enter you email address here...">
+                                <span>@Html.ValidationMessageFor(c => c.LoginRequest.Email)</span>
+
                             </div>
                             <div class="col-12 mb--20">
                                 <label for="password">Password</label>
                                 <input name="LoginRequest.Password" class="mb-0 form-control" type="password" id="login-password" placeholder="Enter your password">
+                                <span>@Html.ValidationMessageFor(c => c.LoginRequest.Password)</span>
+
                             </div>
                             <div class="col-md-12">
                                 <button type="submit" class="btn btn-outlined">Login</button>
@@ -83,3 +102,17 @@
         </div>
     </div>
 </main>
+
+@section SweetAlertCDN{
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    @if (TempData["register"]?.ToString() == "True")
+    {
+        <script>Swal.fire(
+                'Uğurlu əməliyyat!',
+                'Qeydiyyatdan uğurla keçdiniz , zəhmət olmasa e-poçt üvanınıza göndərilən təsdiq mesajını qəbul edin.!',
+                'success'
+            )</script>
+    }
+
+}

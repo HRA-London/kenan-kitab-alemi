@@ -9,6 +9,7 @@
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Azure.Core.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Azure.Identity.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Humanizer.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/MailKit.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Microsoft.Bcl.AsyncInterfaces.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Microsoft.Data.SqlClient.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
@@ -27,7 +28,9 @@
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Microsoft.IdentityModel.Tokens.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Microsoft.SqlServer.Server.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/MimeKit.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/Mono.TextTemplating.dll
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/BouncyCastle.Crypto.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/System.CodeDom.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/System.Configuration.ConfigurationManager.dll
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/bin/Debug/net7.0/System.Drawing.Common.dll
@@ -60,6 +63,7 @@
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/obj/Debug/net7.0/BookShopping.MVC.AssemblyInfoInputs.cache
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/obj/Debug/net7.0/BookShopping.MVC.AssemblyInfo.cs
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/obj/Debug/net7.0/BookShopping.MVC.csproj.CoreCompileInputs.cache
+/Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/obj/Debug/net7.0/BookShopping.MVC.MvcApplicationPartsAssemblyInfo.cs
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/obj/Debug/net7.0/BookShopping.MVC.MvcApplicationPartsAssemblyInfo.cache
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/obj/Debug/net7.0/BookShopping.MVC.RazorAssemblyInfo.cache
 /Users/tarlanusubov/Projects/BookShopping/BookShopping.MVC/obj/Debug/net7.0/BookShopping.MVC.RazorAssemblyInfo.cs

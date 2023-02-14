@@ -1,4 +1,5 @@
 ﻿using BookShopping.Application.Interfaces;
+using BookShopping.Application.Models.Core;
 using BookShopping.Domain.DTOs;
 using BookShopping.Infrastructure.Data;
 using Microsoft.Data.SqlClient;
@@ -6,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,7 +22,7 @@ namespace BookShopping.Infrastructure.Services
             _context = context;
         }
 
-        public async Task<List<FeatureDto>> GetFeatures()
+        public async Task<ServiceResult<List<FeatureDto>>> GetFeatures()
         {
             var features = await _context.Features
                                 .Where(c => c.IsActive == true)
@@ -34,7 +36,15 @@ namespace BookShopping.Infrastructure.Services
                                 .ToListAsync();
 
 
-            return features;
+
+
+
+            return new ServiceResult<List<FeatureDto>>
+            {
+                Response = features,
+                StatusCode = (int)HttpStatusCode.OK,
+                Errors = null
+            };
         }
     }
 }

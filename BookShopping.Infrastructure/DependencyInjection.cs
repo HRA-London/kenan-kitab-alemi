@@ -1,6 +1,7 @@
 ﻿using BookShopping.Application.Interfaces;
 using BookShopping.Infrastructure.Data;
 using BookShopping.Infrastructure.Services;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -23,8 +24,10 @@ namespace BookShopping.Infrastructure
                 options.UseSqlServer(configuration["Database"],
                 b => b.MigrationsAssembly(typeof(ApplicationDbContext).Assembly.FullName)));
 
+            services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
 
             services.AddHttpContextAccessor();
+            services.AddTransient<IEmailSender, EmailSender>();
             services.AddTransient<IFeatureService, FeatureService>();
             services.AddTransient<IAccountService, AccountService>();
 
