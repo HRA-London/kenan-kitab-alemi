@@ -28,22 +28,40 @@ namespace BookShopping.Infrastructure.Services
         public AccountService(ApplicationDbContext context,
                                 IHttpContextAccessor httpContextAccessor,
                                 IUrlHelperFactory urlHelperFactory,
-                                 IActionContextAccessor actionContextAccessor)
+                                 IActionContextAccessor actionContextAccessor
+                                )
         {
             _context = context;
             _httpContext = httpContextAccessor.HttpContext;
             _urlHelper = urlHelperFactory.GetUrlHelper(actionContextAccessor.ActionContext);
         }
 
-        public async Task ConfirmEmailAsync(string userId)
+        public async Task<ServiceResult<bool>> ConfirmEmailAsync(string userId)
         {
             var user = await _context.Users.FirstOrDefaultAsync(c => c.Id.ToString() == userId);
 
             //todo:user i yoxla
+            if (user == null)
+            {
+                return new ServiceResult<bool>
+                {
+                    Errors = new Dictionary<string, string> { { "", "Bele bir istifadeci yoxdur." } },
+                    Response = false,
+                    StatusCode = (int)HttpStatusCode.BadRequest
+                };
+            }
+
 
             user.UserStatusId = (int)UserStatusEnum.Active;
 
             await _context.SaveChangesAsync();
+
+            return new ServiceResult<bool>
+            {
+                Response = true,
+                Errors = null,
+                StatusCode = (int)HttpStatusCode.OK
+            };
 
         }
 
@@ -76,14 +94,16 @@ namespace BookShopping.Infrastructure.Services
             {
                 token = token,
                 userId = userId
-            });
+            }, protocol: _httpContext.Request.Scheme);
+
+            var body = $"<a href='{link}'>Aktiv etmek ucun ciqqildadin</a>";
 
             return new ServiceResult<EmailValidationResponse>
             {
                 Response = new EmailValidationResponse
                 {
                     Token = token,
-                    URL = link
+                    URL = body
                 },
                 Errors = null,
                 StatusCode = (int)HttpStatusCode.OK

@@ -25,7 +25,20 @@ builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
 
-app.MapControllerRoute("default", "{controller=Home}/{action=Index}");
+
+
+
+
+
+app.MapControllerRoute(
+    name: "Admin",
+    pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
+
+
+app.MapControllerRoute("default", "{controller=Home}/{action=Index}/{id?}");
+
+
 
 app.UseStaticFiles();
 

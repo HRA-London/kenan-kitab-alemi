@@ -2959,4 +2959,19 @@ Home Blog
                 'success'
             )</script>
     }
+    else if (TempData["emailconfirmed"]?.ToString() == "False")
+    {
+
+        var error = TempData["emailconfirmederror"]?.ToString();
+
+        <script>
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: '@error'
+            })
+        </script>
+
+
+    }
 }

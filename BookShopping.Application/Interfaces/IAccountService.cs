@@ -11,7 +11,7 @@ namespace BookShopping.Application.Interfaces
         Task<ServiceResult<LoginResponse>> LoginAsync(LoginRequest request);
         Task<ServiceResult<RegisterResponse>> RegisterAsync(RegisterRequest request);
         Task<ServiceResult<EmailValidationResponse>> CreateEmailValidationModel(Guid userId);
-        Task ConfirmEmailAsync(string userId);
+        Task<ServiceResult<bool>> ConfirmEmailAsync(string userId);
     }
 }
 

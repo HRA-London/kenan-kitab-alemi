@@ -27,6 +27,8 @@ namespace BookShopping.Infrastructure
             services.AddSingleton<IActionContextAccessor, ActionContextAccessor>();
 
             services.AddHttpContextAccessor();
+
+            services.AddTransient<ITransactionHandler, TransactionHandler>();
             services.AddTransient<IEmailSender, EmailSender>();
             services.AddTransient<IFeatureService, FeatureService>();
             services.AddTransient<IAccountService, AccountService>();

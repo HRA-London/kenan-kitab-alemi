@@ -12,7 +12,6 @@ namespace BookShopping.MVC.Controllers
     {
         public async Task<IActionResult> Index()
         {
-
             return View();
         }
     }

@@ -24,6 +24,12 @@
     <None Remove="Views\Shared\Components\HomeFeature\" />
     <None Remove="Views\Account\" />
     <None Remove="Models\Account\" />
+    <None Remove="Areas\" />
+    <None Remove="Areas\Admin\" />
+    <None Remove="Areas\Admin\Controllers\" />
+    <None Remove="Areas\Admin\Models\" />
+    <None Remove="Areas\Admin\Views\" />
+    <None Remove="Areas\Admin\Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -37,6 +43,12 @@
     <Folder Include="Views\Shared\Components\HomeFeature\" />
     <Folder Include="Views\Account\" />
     <Folder Include="Models\Account\" />
+    <Folder Include="Areas\" />
+    <Folder Include="Areas\Admin\" />
+    <Folder Include="Areas\Admin\Controllers\" />
+    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Views\" />
+    <Folder Include="Areas\Admin\Views\Home\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BookShopping.Infrastructure\BookShopping.Infrastructure.csproj">
