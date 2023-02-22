@@ -21,7 +21,8 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/AZE-DPC-SXM-DEV/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -85,7 +86,8 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/AZE-DPC-SXM-DEV/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -139,7 +141,8 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/AZE-DPC-SXM-DEV/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -239,7 +242,8 @@
         ],
         "sources": {
           "/usr/local/share/dotnet/library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/AZE-DPC-SXM-DEV/index.json": {}
         },
         "frameworks": {
           "net7.0": {
