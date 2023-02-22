@@ -113,8 +113,10 @@ namespace BookShopping.Infrastructure.Services
         public async Task<ServiceResult<LoginResponse>> LoginAsync(LoginRequest request)
         {
             var user = await _context.Users
+                                        .Include(c => c.UserRole)
                                          .Where(c => c.Email == request.Email)
                                              .FirstOrDefaultAsync();
+
 
             if (user == null)
                 return new ServiceResult<LoginResponse>
@@ -158,11 +160,14 @@ namespace BookShopping.Infrastructure.Services
                 };
             }
 
+
             var claims = new List<Claim>
                  {
                      new Claim("name", user.Name),
                      new Claim("surname", user.Surname),
                      new Claim("id", user.Id.ToString()),
+                     new Claim("role",user.UserRole.Name),
+                     new Claim("roleId",user.UserRoleId.ToString())
                  };
 
             var claimsIdentity = new ClaimsIdentity(

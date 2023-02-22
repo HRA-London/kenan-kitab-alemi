@@ -71,8 +71,6 @@ namespace BookShopping.MVC.Controllers
 
                     TempData["register"] = true;
 
-                    throw new NullReferenceException();
-
                     await _transactionHandler.CommitTransactionAsync();
                     return RedirectToAction("Auth", "Account");
                 }

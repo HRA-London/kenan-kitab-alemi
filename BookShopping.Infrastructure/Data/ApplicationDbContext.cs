@@ -10,6 +10,7 @@ namespace BookShopping.Infrastructure.Data
         public DbSet<Feature> Features { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<UserAddress> UserAddresses { get; set; }
+        public DbSet<UserRole> UserRoles { get; set; }
 
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options)
         {
@@ -47,6 +48,7 @@ namespace BookShopping.Infrastructure.Data
                 entity.Property(c => c.Email).IsRequired().HasMaxLength(200);
                 entity.Property(c => c.Password).IsRequired();
                 entity.Property(c => c.UserStatusId).IsRequired();
+
             });
 
 
@@ -62,6 +64,14 @@ namespace BookShopping.Infrastructure.Data
                 entity.Property(c => c.Surname).IsRequired().HasMaxLength(100);
                 entity.Property(c => c.Address).IsRequired();
                 entity.Property(c => c.Phone).IsRequired().HasMaxLength(15);
+            });
+
+
+            modelBuilder.Entity<UserRole>(entity =>
+            {
+                entity.Property(c => c.Id).ValueGeneratedNever();
+                entity.Property(c => c.Name).IsRequired().HasMaxLength(100);
+
             });
 
 

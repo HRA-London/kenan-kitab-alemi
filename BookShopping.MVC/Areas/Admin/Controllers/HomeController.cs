@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using BookShopping.Domain.Enums;
+using BookShopping.MVC.Filters;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,13 +12,19 @@ using Microsoft.AspNetCore.Mvc;
 namespace BookShopping.MVC.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
     public class HomeController : Controller
     {
         // GET: /<controller>/
+        [MyAuth(UserRoleEnum.Admin)]
         public IActionResult Index()
         {
             return View();
+        }
+
+
+        public IActionResult Add()
+        {
+            return Content("add e geldi");
         }
     }
 }

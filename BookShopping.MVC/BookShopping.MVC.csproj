@@ -30,6 +30,7 @@
     <None Remove="Areas\Admin\Models\" />
     <None Remove="Areas\Admin\Views\" />
     <None Remove="Areas\Admin\Views\Home\" />
+    <None Remove="Filters\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
@@ -49,6 +50,7 @@
     <Folder Include="Areas\Admin\Models\" />
     <Folder Include="Areas\Admin\Views\" />
     <Folder Include="Areas\Admin\Views\Home\" />
+    <Folder Include="Filters\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BookShopping.Infrastructure\BookShopping.Infrastructure.csproj">

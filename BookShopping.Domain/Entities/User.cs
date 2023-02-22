@@ -24,9 +24,11 @@ namespace BookShopping.Domain.Entities
         public string Surname { get; set; }
         public string Email { get; set; }
         public byte[] Password { get; set; }
+        public byte UserRoleId { get; set; }
         public int UserStatusId { get; set; }
 
         public ICollection<UserAddress> Addresses { get; set; }
+        public UserRole UserRole { get; set; }
 
 
         public void MakePassword(string password)
